@@ -5,13 +5,13 @@ number_str = str(number)
 
 
 def get_last_digit(number):
-    #Extracts the last digit (as an integer, handling negative numbers)
+#    #Extracts the last digit (as an integer, handling negative numbers)
     if number >= 0:
         return number % 10
     else:
         return (abs(number) % 10) * -1  # Handle negative case
-        
-       
+
+
 last_digit = get_last_digit(number)
 last_digit_str = str(last_digit)
 
