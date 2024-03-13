@@ -9,6 +9,6 @@ first_test = 'Last digit of ' + number_str + ' is ' + number_str[-1]
 if last_digit > 5:
     print(f"{first_test} and is greater than 5")
 elif last_digit == 0:
-    print(f"{first_test} and is zero")
+    print(f"{first_test} and is 0")
 elif last_digit < 6 and last_digit != 0:
     print(f"{first_test} and is less than 6 and not zero")
