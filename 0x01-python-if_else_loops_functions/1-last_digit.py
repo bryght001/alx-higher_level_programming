@@ -5,7 +5,7 @@ number_str = str(number)
 
 
 def get_last_digit(number):
-#    #Extracts the last digit (as an integer, handling negative numbers)
+    #    #Extracts the last digit (as an integer, handling negative numbers)
     if number >= 0:
         return number % 10
     else:
