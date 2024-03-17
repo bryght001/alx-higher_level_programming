@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-my_list = [2, 4, 6, 8, 10, 12, 14]
+my_list = ["{}".format("2, 4, 6, 8, 10, 12, 14")]
 
 
 def print_list_integer(my_list):
